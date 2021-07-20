@@ -1,4 +1,4 @@
-public class Solution {
+public class BasicLoops {
 
   public static void main (String[] args) {
     // print "Hello world!"
@@ -11,9 +11,8 @@ public class Solution {
     }
 
     // doubled number exceeds 100
-    System.out.println("## Task 'multiply numbers'");
+    System.out.println("\n\n\n## Task 'multiply numbers'");
     int sum = 3;
-    System.out.println("Starting number is " + sum);
 
     while (sum < 100) {
       sum = sum * 2;
@@ -21,7 +20,7 @@ public class Solution {
     }
 
     // count down from 30
-    System.out.println("## Task 'countdown'");
+    System.out.println("\n\n\n## Task 'countdown'");
     int count = 10;
     while (count >= 0) {
       System.out.println(count);
